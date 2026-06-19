@@ -1,6 +1,17 @@
-# 多智能体协同框架基础依赖
-python >= 3.10
+# OpenClaw联邦智能体总线依赖
+# MQTT通信总线
+paho-mqtt>=1.6.1
+# yaml配置解析
 pyyaml>=6.0
-python-dotenv>=1.0
-loguru>=0.7.2
-pytest>=7.4.0
+# 消息v3.0 schema校验
+jsonschema>=4.20.0
+# ECDSA消息签名加密
+ecdsa>=0.19.0
+cryptography>=41.0.0
+# 注册中心HTTP请求
+requests>=2.31.0
+# 环境变量读取
+python-dotenv>=1.0.0
+# 工具库
+tqdm>=4.66.0
+shutil3
