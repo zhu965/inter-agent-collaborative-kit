@@ -1,0 +1,9 @@
+# OpenClaw v5.2 全局联邦配置
+bus_topic:
+  p2p_prefix: "federate/p2p"
+  broadcast_topic: "federate/broadcast/all"
+storage_root: "./federate_storage"
+compliance_threshold: 90
+heartbeat_interval: 30
+explicit_deny:
+  market: ["architectural_design", "registry_approve"]
